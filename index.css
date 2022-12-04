@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    text-align:center;
+}
+#password1,#password2{
+    background-color:blueviolet;
+    color:white;
+    border-color:blueviolet;
+    border-radius: 5px;
+    width:100px;
+    margin:10px;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#container{
+    display:flex;
+    flex-wrap:wrap;
+    grid-template-columns:repeat(2, auto);
+    grid-template-rows:repeat(2,auto);
+    grid-gap:10px;
+    justify-content:center;
+}
+#genbtn{
+    color:white;
+    background-color:green;
+    padding:10px;
+    border-radius:5px;
+    font-size:20px;
+}
+
